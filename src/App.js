@@ -10,7 +10,7 @@ const MsgContent = createContext()
 
 function ArrayButton(props) {
   const [arr] = useState([1, 2, 3])
-  console.log(props,'重新渲染props')
+  console.log(props,'重新渲染props1')
   const {cb:getMsg} = props
   return (
     <div>
